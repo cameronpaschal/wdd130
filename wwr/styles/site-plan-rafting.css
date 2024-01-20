@@ -13,22 +13,22 @@ Fonts are separated by a & */
     --primary-color: #F2F4F3;
     --secondary-color: #1D2D34;
     --accent1-color: #1B98E0;
-    --accent2-color: #DB6906;
+    --accent2-color: #ff6600;
     /* change the values below to your chosen font(s) */
     --heading-font: headcorpsregular;
     --paragraph-font: "Fira Sans", Helvetica, sans-serif;
     /* these colors below should be chosen from among your palette colors above */
     --headline-color-on-white: #1B98E0;
     /* headlines on a white background */
-    --headline-color-on-color: white;
+    --headline-color-on-color: black;
     /* headlines on a colored background */
-    --paragraph-color-on-white: #1D2D34;
+    --paragraph-color-on-white: black;
     /* paragraph text on a white background */
-    --paragraph-color-on-color: white;
+    --paragraph-color-on-color: black;
     /* paragraph text on a colored background */
     --paragraph-background-color: #1B98E0;
-    --nav-link-color: #F2F4F3;
-    --nav-background-color: #DB6906;
+    --nav-link-color: black;
+    --nav-background-color: #ff6600;
     --nav-hover-link-color: white;
     --nav-hover-background-color: #c96208;
 }
