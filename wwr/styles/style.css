@@ -1,3 +1,8 @@
+/* All styling has been sorted to be in alphabetical order based on the first letter */
+
+
+/* Author: Cameron Paschal */
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @font-face {
     font-family: "headcorpsregular";
@@ -10,109 +15,14 @@
     --heading-color: #1B98E0;
 }
 
+
+/* styling for basic elements and their respective more specific id's and classes */
+
 body {
     font-size: 22px;
     margin: 0;
     padding: 0;
-}
-
-h2 {
-    margin: 0;
-}
-
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-p {
-    font-family: var(--paragraph-font);
-}
-
-nav a {
-    text-align: center;
-    color: black;
-    text-decoration: none;
-    padding: 35px;
-}
-
-#hero-msg h1,
-#hero-msg h4 {
-    text-align: center;
-    font-family: var(--heading-font);
-    color: var(--heading-color);
-}
-
-.button-box {
-    text-align: center;
-}
-
-main section {
-    text-align: center;
-}
-
-main #background {
-    height: 725px;
-    background-color: #C19A6B;
-}
-
-body {
     background-color: #F2F4F3;
-}
-
-header {
-    background-color: #1B98E0;
-}
-
-nav a:hover {
-    background-color: #F2F4F3;
-    color: black;
-}
-
-.book,
-.join {
-    background-color: #F2F4F3;
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-
-.book {
-    background-color: #C19A6B;
-}
-
-.book:hover,
-.join:hover {
-    background-color: #1B98E0;
-    color: black;
-}
-
-.join:hover {
-    background-color: #C19A6B;
-}
-
-#background {
-    background-color: #F2F4F3;
-}
-
-.msg {
-    background-color: #1B98E0;
-    line-height: 1.5em;
-    padding: 35px;
-}
-
-.msg h2 {
-    color: black;
-    font-family: var(--heading-font);
-}
-
-.msg p {
-    color: black;
-    font-size: .8em;
-    padding-bottom: 15px;
 }
 
 footer {
@@ -136,8 +46,108 @@ footer .social img {
     padding-top: 15px;
 }
 
-.home title h4 {
+footer p {
+    font-size: 1.2em;
+}
+
+footer p:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+header {
+    background-color: #1B98E0;
+}
+
+img.logo {
+    width: 80px;
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+main #background {
+    height: 725px;
+    background-color: #C19A6B;
+}
+
+nav a {
+    text-align: center;
     color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #F2F4F3;
+    color: black;
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+
+/* styling for id's */
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+}
+
+#logo-link {
+    padding-top: 5px;
+}
+
+
+/* styling for classes */
+
+.book,
+.join {
+    background-color: #F2F4F3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book {
+    background-color: #C19A6B;
+}
+
+.book:hover,
+.join:hover {
+    background-color: #1B98E0;
+    color: black;
+}
+
+.button-box {
+    text-align: center;
+}
+
+.card-img {
+    border: 10px solid #1B98E0;
 }
 
 .home title {
@@ -147,12 +157,8 @@ footer .social img {
     margin-top: 10px;
 }
 
-#hero-img {
-    width: 100%;
-}
-
-img.logo {
-    width: 80px;
+.home title h4 {
+    color: black;
 }
 
 .icon {
@@ -160,28 +166,29 @@ img.logo {
     padding-top: 10px;
 }
 
-footer p {
-    font-size: 1.2em;
+.join:hover {
+    background-color: #C19A6B;
 }
 
-footer p:hover {
-    text-decoration: underline;
+.msg {
+    background-color: #1B98E0;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
-#logo-link {
-    padding-top: 5px;
+.msg h2 {
+    color: black;
+    font-family: var(--heading-font);
+}
+
+.msg p {
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .rivers-card,
 .camping-card,
 .rapids-card {
     margin: 200px 0;
-}
-
-.card-img {
-    border: 10px solid #1B98E0;
-}
-
-main section img {
-    box-sizing: border-box;
 }
