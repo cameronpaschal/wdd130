@@ -62,7 +62,7 @@ h2 {
 }
 
 header {
-    background-color: #1B98E0;
+    background-color: #1B98E099;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -169,6 +169,7 @@ p {
 
 .book {
     background-color: #C19A6B;
+    margin-bottom: 20px;
 }
 
 .book:hover,
