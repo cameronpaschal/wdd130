@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @font-face {
     font-family: "headcorpsregular";
-    src: url('../fonts/headcorpsregular/headcorpsregular.otf');
+    src: url('/wwr/fonts/headcorpsregular/headcorpsregular.otf');
 }
 
 :root {
