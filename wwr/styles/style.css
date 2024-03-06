@@ -51,6 +51,7 @@ footer .social img {
 
 footer p {
     font-size: 1.2em;
+    font-family: var(--paragraph-font);
 }
 
 footer p:hover {
@@ -273,6 +274,47 @@ p {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+#faq-title {
+    font-family: var(--heading-font);
+    color: black;
+    background-color: #C19A6B;
+    padding: .1em .4em .1em .4em;
+    border-radius: 7px;
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-top: .7em;
+    margin-bottom: .5em;
+}
+
+.faq-block h3 {
+    font-family: var(--heading-font);
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-top: .5em;
+    margin-bottom: .2em;
+    background-color: #1B98E0;
+    padding: .1em .4em .1em .4em;
+    border-radius: 7px;
+}
+
+.faq-block {
+    margin-bottom: 2em;
+}
+
+.faq-block p {
+    margin: .4em 0em .4em 0em;
+    text-align: left;
+}
+
+#faq-footer {
+    margin-top: 1px;
+}
+
+.faq-grid {
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 @media screen and (max-width: 900px) {
