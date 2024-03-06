@@ -265,6 +265,10 @@ p {
     grid-row: 2/3;
 }
 
+.card-title {
+    font-family: var(--heading-font);
+}
+
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
