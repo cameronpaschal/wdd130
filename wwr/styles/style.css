@@ -123,6 +123,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin: -100px;
+    margin-bottom: -50px;
 }
 
 #hero-box {
