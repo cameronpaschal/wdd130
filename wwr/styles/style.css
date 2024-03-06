@@ -285,7 +285,7 @@ p {
     font-family: var(--heading-font);
     color: black;
     background-color: #C19A6B;
-    padding: .1em .4em .1em .4em;
+    padding: .1em .1em .1em .1em;
     border-radius: 7px;
     max-width: fit-content;
     margin: 0 auto;
