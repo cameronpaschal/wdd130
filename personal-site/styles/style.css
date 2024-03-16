@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "scripto";
+    src: url('../fonts/scripto-font/Scripto-2OR2v.ttf');
+}
+
+#new-release {
+    background-color: #000000;
+}
+
+#new-release-text {
+    background-color: white;
+}
+
+.new-release-logo {
+    width: 2.5em;
+}
+
+footer {
+    background-color: black;
+}
+
+.social img {
+    width: 2.5em;
+}
+
+#logo {
+    font-family: "scripto";
+}
+
+.connect-buttons a {
+    text-decoration: none;
+}
+
+.connect-buttons img {
+    width: 10em;
+}
