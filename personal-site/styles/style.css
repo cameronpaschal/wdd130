@@ -1,22 +1,196 @@
+@import url('https://db.onlinewebfonts.com/c/0e0f094e0c53c2f7f9bbf436f922875b?family=Foundry+Context+W03+Demi');
 @font-face {
     font-family: "scripto";
     src: url('../fonts/scripto-font/Scripto-2OR2v.ttf');
 }
 
+@font-face {
+    font-family: "gelica";
+    src: url('../fonts/gelica/Fontspring-DEMO-gelica-bold.otf');
+}
+
+:root {
+    --paragraph-font: "Foundry Context W03 Demi", Helvetica, sans-serif;
+    --heading-font: "gelica", Arial, serif;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    background-color: #b0a7dd;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    position: fixed;
+    width: 100%;
+}
+
+#logo {
+    text-align: center;
+    color: black;
+    width: 7.5em;
+    margin-left: .4em;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+header a {
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--paragraph-font);
+    background-color: black;
+    color: #FFEDDF;
+    font-weight: bolder;
+    font-size: 1.3em;
+    border: 2px solid black;
+    border-radius: .9em;
+    padding: .3em .5em;
+    width: fit-content;
+}
+
+main {
+    background-color: black;
+}
+
+main p {
+    color: #FFEDDF;
+    font-family: var(--paragraph-font);
+}
+
 #new-release {
     background-color: #000000;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: end;
+    padding: 7em 0em 6em;
+}
+
+#new-release-text h1 {
+    font-family: var(--heading-font);
+    font-size: 4em;
+    margin: .5em 0em;
+    color: #b0a7dd;
+}
+
+#new-release-text h3 {
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin: .5em 0em;
+    color: #d2f4bd;
+}
+
+#new-release-text p {
+    margin: .5em 0em;
+    font-size: 1.6em;
+    color: #d2f4bd;
+}
+
+#new-release-picture {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 3em;
+    border: .4em solid #FFEDDF;
 }
 
 #new-release-text {
-    background-color: white;
+    background-color: black;
+    color: #FFEDDF;
+    height: fit-content;
+    /* padding-left: 1em; */
+}
+
+#home-platforms {
+    padding-left: 1em;
+    color: #FFEDDF;
+    font-family: var(--heading-font);
+}
+
+#home-platforms h2 {
+    font-size: 2em;
+    padding-left: 1.2em;
+    color: #d2f4bd;
+}
+
+#home-platforms a {
+    text-decoration: none;
 }
 
 .new-release-logo {
-    width: 2.5em;
+    width: 3.5em;
+    padding-left: 1em;
+}
+
+#bio-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr 5fr 1fr;
+    grid-template-rows: 3fr 2fr;
+}
+
+#bio-section img {
+    width: 100%;
+    grid-area: 1 / 2 / 3 / 4;
+    border-radius: 2em;
+    border: .4em solid #FFEDDF;
+}
+
+#bio-background {
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: #b0a7dd;
+    border-radius: 2em;
+    height: fit-content;
+    margin-right: 2em;
+    border: .4em solid #d2f4bd;
+}
+
+#bio-background p {
+    text-align: center;
+    font-family: var(--paragraph-font);
+    color: black;
+    margin: .5em 1em;
 }
 
 footer {
     background-color: black;
+    color: #FFEDDF;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 2em;
+    border-top: .4em solid #d2f4bd;
+    border-left: .4em solid #d2f4bd;
+    border-right: .4em solid #d2f4bd;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
+
+footer h4 {
+    font-family: var(--heading-font);
+    font-size: 1.5em;
+    align-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFEDDF;
+    font-family: var(--paragraph-font);
+}
+
+a.footer-link {
+    font-size: 1.3em;
+}
+
+.social a {
+    margin-right: .5em;
 }
 
 .social img {
