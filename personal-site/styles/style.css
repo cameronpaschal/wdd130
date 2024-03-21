@@ -55,6 +55,12 @@ header a {
     border-radius: .9em;
     padding: .3em .5em;
     width: fit-content;
+    transition: transform .3s;
+}
+
+header a:hover {
+    transform: scale(1.125);
+    opacity: .75;
 }
 
 main {
@@ -127,6 +133,12 @@ main p {
 .new-release-logo {
     width: 3.5em;
     padding-left: 1em;
+    transition: transform .3s;
+}
+
+.new-release-logo:hover {
+    opacity: .9;
+    transform: scale(1.13);
 }
 
 #bio-section {
@@ -187,6 +199,12 @@ footer a {
 
 a.footer-link {
     font-size: 1.3em;
+    transition: transform .3s;
+}
+
+a.footer-link:hover {
+    opacity: .9;
+    transform: scale(1.13);
 }
 
 .social a {
@@ -195,6 +213,12 @@ a.footer-link {
 
 .social img {
     width: 2.5em;
+    transition: transform .3s;
+}
+
+.social img:hover {
+    transform: scale(1.13);
+    opacity: .9;
 }
 
 #logo {
