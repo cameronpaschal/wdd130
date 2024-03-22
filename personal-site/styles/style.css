@@ -207,7 +207,7 @@ main p {
     color: #d2f4bd;
     font-size: 2.5em;
     width: fit-content;
-    margin: .5em auto;
+    margin: 1em auto .5em;
 }
 
 .marketing-info p {
@@ -218,7 +218,7 @@ main p {
     text-align: center;
     font-family: var(--paragraph-font);
     color: black;
-    margin: .7em 2em;
+    margin: .7em 2em 2em;
     padding: .5em .5em;
     font-size: 1.2em;
 }
