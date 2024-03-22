@@ -32,7 +32,7 @@ header {
 
 #logo {
     text-align: center;
-    background-color: none;
+    /* background-color: none; */
     color: #b0a7dd;
     width: fit-content;
     font-size: 2.3em;
@@ -142,13 +142,13 @@ main p {
 
 .new-release-logo {
     width: 3.5em;
-    padding-left: 1em;
+    padding: 0 .5em;
     transition: transform .3s;
 }
 
 .new-release-logo:hover {
     opacity: .9;
-    transform: scale(1.13);
+    transform: rotate(360deg) scale(1.2);
 }
 
 #bio-section {
@@ -282,7 +282,7 @@ a.footer-link:hover {
 }
 
 .social img:hover {
-    transform: scale(1.13);
+    transform: rotate(360deg) scale(1.13);
     opacity: .9;
 }
 
