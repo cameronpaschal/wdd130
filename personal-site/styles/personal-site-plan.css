@@ -30,11 +30,11 @@ Fonts are separated by a | */
     /* headlines on a colored background */
     --paragraph-color-on-white: #0D1321;
     /* paragraph text on a white background */
-    --paragraph-color-on-color: #FFEDDF;
+    --paragraph-color-on-color: black;
     /* paragraph text on a colored background */
-    --paragraph-background-color: #0D1321;
-    --nav-link-color: #0D1321;
-    --nav-background-color: #b0a7dd;
+    --paragraph-background-color: #b0a7dd;
+    --nav-link-color: black;
+    --nav-background-color: #FFEDDF;
     --nav-hover-link-color: #0D1321;
     --nav-hover-background-color: #c3bddd;
 }
