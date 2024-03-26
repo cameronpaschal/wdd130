@@ -209,7 +209,7 @@ main p {
     grid-column: 1/2;
 }
 
-.marketing-info h1 {
+.marketing-info h2 {
     font-family: var(--heading-font);
     color: #d2f4bd;
     font-size: 2.5em;
