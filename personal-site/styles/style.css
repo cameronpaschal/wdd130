@@ -195,6 +195,7 @@ main p {
     width: fit-content;
     margin: 0 auto;
     padding: .5em 0em;
+    text-align: center;
 }
 
 #main-pictures img {
@@ -214,6 +215,7 @@ main p {
     font-size: 2.5em;
     width: fit-content;
     margin: 1em auto .5em;
+    text-align: center;
 }
 
 .marketing-info p {
@@ -239,6 +241,7 @@ main p {
     /* margin-top: 0px; */
     font-size: 2.5em;
     background-color: black;
+    text-align: center;
 }
 
 .parallax {
@@ -427,17 +430,38 @@ a.footer-link:hover {
     #home-platforms h2 {
         font-size: 1.5em;
     }
+    .connect-img {
+        width: 8.7em;
+    }
+    .connect-buttons a h4 {
+        font-size: 1.3em;
+    }
+    #main-pictures {
+        padding-top: 8.4em;
+    }
 }
 
 @media screen and (max-width: 600px) {
     #bio-background {
         margin-top: -3em;
     }
+    .connect-img {
+        width: 7.7em;
+    }
+    .connect-buttons a h4 {
+        font-size: 1.1em;
+    }
 }
 
 @media screen and (max-width: 500px) {
     #bio-background {
         margin-top: -5em;
+    }
+    .connect-img {
+        width: 5.7em;
+    }
+    .connect-buttons a h4 {
+        font-size: 1.0em;
     }
 }
 
@@ -464,11 +488,17 @@ a.footer-link:hover {
     #new-release {
         padding-top: 13em;
     }
+    #main-pictures {
+        padding-top: 12.4em;
+    }
 }
 
 @media screen and (max-width: 400px) {
     #bio-background {
         margin-top: -9em;
+    }
+    #connect-title {
+        margin-bottom: 10em;
     }
 }
 
